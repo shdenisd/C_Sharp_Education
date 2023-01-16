@@ -8,6 +8,7 @@ int MostOfThree(int Number1, int Number2, int Number3)
     return max;
 }
 
+array[1] = 4560;
 
 int Max = MostOfThree
 (
