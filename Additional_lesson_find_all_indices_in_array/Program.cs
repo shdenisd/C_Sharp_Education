@@ -1,5 +1,4 @@
-﻿int[] array = { 12, 11, 6, 45, 65, 230, 6, 3, 8, 5, 6, };
-
+﻿int[] array = { 12, 11, 6, 45, 65, 230, 6, 3, 8, 5, 6 };
 
 void find_index(int[] array, int UserNumber)
 {
@@ -23,7 +22,6 @@ void find_index(int[] array, int UserNumber)
         }
         counter++;
     }
-
     if (counter2 == 1)  // если нашли одно значение, просто выводим его на экран
     {
         Console.WriteLine($"А также по индексу {next_find_index[0]}");
@@ -38,6 +36,10 @@ void find_index(int[] array, int UserNumber)
             counter++;
         }
         
+    }
+    if (flag == false)
+    {
+        Console.WriteLine("Таких значений не найденно!");
     }
 }
 
